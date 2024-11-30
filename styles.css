@@ -1,0 +1,152 @@
+/* Reset de márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 20px;
+    background-color: #f5e1e1;
+    overflow-x: hidden; /* Evitar desbordamiento horizontal */
+}
+
+/* Contenedor principal */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;  /* Limitar el ancho máximo */
+    overflow: hidden;  /* Evitar que el contenido se desborde */
+}
+
+/* Estilo para la cabecera */
+.header {
+    text-align: center;  /* Centra el texto dentro del contenedor */
+    margin-bottom: 20px;
+    width: 100%; /* Asegura que ocupe todo el ancho disponible */
+    height: 100%;  /* Asegura que ocupe todo el alto disponible */
+    display: flex;
+    justify-content: center;  /* Centra el contenido horizontalmente */
+    align-items: center;  /* Centra el contenido verticalmente */
+    background-image: url('https://i.postimg.cc/RZHcdNcH/MIS-XV-A-OS-20241130-134932-0000.png');
+    background-size: contain; /* Ajusta la imagen para que se vea completa dentro del contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen en el contenedor */
+    border-radius: 10px; /* Bordes redondeados si es necesario */
+    height: 300px; /* Puedes ajustar esta altura según el tamaño que desees */
+}
+.header img {
+    width: 100%;  /* Hace que la imagen ocupe todo el ancho disponible */
+    height: 200;  /* Ajusta la altura automáticamente para mantener la proporción */
+    object-fit: cover;  /* Asegura que la imagen no se recorte y se vea completa */
+    border-radius: px; /* Bordes redondeados si es necesario */
+    margin-top: 90px;
+    border-radius: 15px;
+}
+/* Estilo para el contenido */
+.content {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.content h1 {
+    font-size: 3.4rem;
+    color: #6d4c41;
+    margin-bottom: 10px;
+        font-family: "Fleur De Leah", cursive;
+        font-weight: 500;
+        font-style: normal;
+}
+
+.content p {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+/* Estilo para el botón */
+.button {
+    background-color: #c08383;
+    border: none;
+    padding: 12px 20px;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #d0a4a4;
+}
+
+/* Estilo para el temporizador */
+.countdown {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.timer {
+    display: flex;
+    justify-content: space-evenly; /* Centrar y distribuir los círculos uniformemente */
+    gap: 5px;
+    margin-bottom: 10px;
+    width: 100%;  /* Aseguramos que ocupe todo el ancho disponible */
+    max-width: 400px; /* Limita el ancho máximo */
+    margin: 0 auto; /* Centra el temporizador */
+    flex-wrap: wrap; /* Asegura que los círculos no se desborden */
+}
+
+/* Estilo para los círculos del temporizador */
+.time {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40px;  /* Tamaño reducido de los círculos */
+    height: 40px; /* Tamaño reducido de los círculos */
+    background-color: #daa083;
+    color: white;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px; /* Espaciado entre los círculos */
+}
+
+.time span {
+    display: block;
+    font-size: 0.7rem; /* Tamaño de fuente para las etiquetas */
+    color: #473d3d;
+    margin-top: 25px; /* Separación entre el número y la etiqueta */
+}
+
+/* Estilo para la sección de la celebración */
+.celebracion {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #333;
+    text-align: center;
+}
+
+.celebracion img {
+    margin-bottom: 10px;
+}
