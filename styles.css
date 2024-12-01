@@ -401,3 +401,8 @@ color: #002041;
     font-style: normal;
     font-weight: 500;
   }
+  .fecha img{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 250px;
+  }
