@@ -21,10 +21,23 @@ const x = setInterval(function() {
     // Si la cuenta atrás termina, mostrar mensaje
     if (distance < 0) {
         clearInterval(x);
-        document.querySelector(".countdown h3").innerHTML = "¡Es hora de la fiesta!";
+        document.querySelector(".countdown h3").innerHTML = "¡Es hora de celebrar";
     }
 }, 1000);
 
 function setReminder() {
     alert("¡Recordatorio agendado!");
 }
+
+document.getElementById('showButton').addEventListener('click', function() {
+    var bankDetails = document.getElementById('bankDetails');
+    
+    // Cambiar el estado de visibilidad de los datos bancarios
+    if (bankDetails.classList.contains('hidden')) {
+      bankDetails.classList.remove('hidden');
+      this.innerText = 'Ocultar Datos Bancarios'; // Cambiar texto del botón
+    } else {
+      bankDetails.classList.add('hidden');
+      this.innerText = 'Ver Datos Bancarios'; // Volver a mostrar el texto original del botón
+    }
+  });

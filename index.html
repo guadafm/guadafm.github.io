@@ -8,42 +8,111 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Permanent+Marker&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Permanent+Marker&family=SUSE:wght@100..800&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <a href='https://postimg.cc/bZqDNYVy' target='_blank'><img src='https://i.postimg.cc/RZHcdNcH/MIS-XV-A-OS-20241130-134932-0000.png' border='0' alt='MIS-XV-A-OS-20241130-134932-0000'/></a>
+<img src="pia15.png" alt="piaxv">
         </div>
         <div class="content">
             <h1>¡Estás invitado!</h1>
             <p>Me encantaría que seas parte de este momento tan especial para mí. ¡Falta poco!</p>
-<p> </p>
-            <a href="#" class="button">Agendar Recordatorio</a>
-            <!-- Temporizador -->
+            <a 
+            href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=XV+de+Pia&details=La+celebración+será+en+Florentino+Ameghino+867,+Quincho+Petrolero.&location=Florentino+Ameghino+867&dates=20241215T200000Z/20241216T020000Z" 
+            target="_blank" 
+            class="button"
+        >Agendar Recordatorio</a>
             <div class="countdown">
                 <div class="timer">
                     <div class="time">
                         <span id="days">00</span>
-                        <span>DÍAS</span>
+                        <p>DÍAS</p>
                     </div>
                     <div class="time">
                         <span id="hours">00</span>
-                        <span>HORAS</span>
+                        <p>HORAS</p>
                     </div>
                     <div class="time">
                         <span id="minutes">00</span>
-                        <span>MINUTOS</span>
+                        <p>MINUTOS</p>
                     </div>
                     <div class="time">
                         <span id="seconds">00</span>
-                        <span>SEGUNDOS</span>
+                        <p>SEGUNDOS</p>
                     </div>
                 </div>
             </div>
             <div class="celebracion">
-                <img src="https://via.placeholder.com/30" alt="Icono de celebración">
-                <p>CELEBRACIÓN</p>
-                <p>La celebración será el 14 de diciembre a las 21 hs.</p>
+                <img src="salud.gif" alt="Icono de celebración">
+                 <h2>CELEBRACIÓN</h2>
+                <p>La celebración será en Florentino Ameghino 867, Quincho Petrolero</p>
+<a href="https://bit.ly/49epmlW" target="_blank">
+    <button class="btn-location">VER UBICACIÓN</button>
+  </a>  
+                <div class="dress-code">
+                    <img src="wedding.png" alt="dresscode">
+                    <h2>DRESS CODE</h2>
+                    <p>¡Elegante Sport!</p> 
+                    <p>No se permite asistir de rojo.</p>
+                </div>
+                <div class="hashtag">
+                    <img src="camara.gif" alt="camara">
+                    <h2>#PIA_XV</h2>
+                    <P>Subí fotos del cumpleaños a Instagram!</P>
+                </div>
+                <div class="fotos">
+                    <img src="piacollage.png" alt="collage">
+                  </div>
+                  <div class="gift">
+                    <img src="gift.gif" alt="giftgif">
+                    <h2>REGALOS</h2>
+                    <P>Lo más importante es tu presencia, pero si deseas hacerme un regalo acá tenés mi sugerencia.</P>
+                    <button id="showButton">VER DATOS BANCARIOS</button>
+                    <div id="bankDetails" class="hidden">
+                      <p>Mercado Pago</p>
+                      <p><strong>Alias:</strong> pia.yasmin</p>
+                      <p>¡Muchas gracias!</p>
+                    </div>
+                </div>
+                <div class="rsvp-container">
+                    <div class="rsvp-container">
+                        <form action="https://formspree.io/f/xwpkwzkz" method="POST">
+                          <h2>CONFIRMAR ASISTENCIA</h2>
+                          <p>Por favor, confirma tu asistencia</p>
+                          <div class="option">
+                            <input type="radio" id="yes" name="attendance" value="yes">
+                            <label for="yes">Sí, allí estaré!</label>
+                          </div>
+                          <div class="option">
+                            <input type="radio" id="no" name="attendance" value="no">
+                            <label for="no">No podré asistir</label>
+                          </div>
+                          <div class="form-container">
+                            <div class="input-container">
+                              <input 
+                                type="text" 
+                                id="names" 
+                                name="names" 
+                                placeholder="Nombre, apellido y acompañantes">
+                            </div>
+                            <div class="input-container">
+                              <textarea 
+                                id="message" 
+                                name="message" 
+                                placeholder="Mensajitos para Pía:" 
+                                rows="4"></textarea>
+                            </div>
+                          </div>
+                          <button type="submit" class="submit-button">ENVIAR RESPUESTA</button>
+                        </form>
+                      </div>                      
+                  </div>
+                  <div class="fin">
+                    <img src="teespero.png" alt="despedida">
+                  </div>
             </div>
         </div>
     </div>
